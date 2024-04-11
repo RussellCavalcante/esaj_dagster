@@ -15,9 +15,9 @@ from esaj_dagster.email_sender import enviar_email
 # DEFAULT_SA_ENGINE_RESOURCE_KEY = ResourcesEnum.SQLALCHEMY_ENGINE_KEY.value
 # DEFAULT_S3_RESOURCE_KEY = ResourcesEnum.CRAWLER_S3_CONNECTOR_KEY.value
 DEFAULT_NAME_KEY = "asset_source_esaj_miner"
-DEFAULT_DESCRIPTION_KEY = "crawler_copel_miner"
+DEFAULT_DESCRIPTION_KEY = "crawler_esaj_miner"
 DEFAULT_WALKTHROUHG_PATH = "os_data"
-DEFAULT_SOURCE_TAG_KEY = "crawler-copel"
+DEFAULT_SOURCE_TAG_KEY = "crawler-esaj"
 
 
 def source_to_crawler_asset_factory(
