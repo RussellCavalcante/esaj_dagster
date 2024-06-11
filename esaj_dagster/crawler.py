@@ -165,9 +165,9 @@ def create_driver(download_dir: str):
     chrome_options = ChromeOptions()
     chrome_options.add_experimental_option("prefs", prefs)
     chrome_options.add_argument("--headless=new") # Run in headless mode
-    chrome_options.add_argument("--no-sandbox") 
-    chrome_options.add_argument('--disable-gpu') 
-    chrome_options.add_argument('--disable-dev-shm-usage') # To overcome limited resource problems in Docker container
+    # chrome_options.add_argument("--no-sandbox") 
+    # chrome_options.add_argument('--disable-gpu') 
+    # chrome_options.add_argument('--disable-dev-shm-usage') # To overcome limited resource problems in Docker container
 
     # Set up Chrome Service
     service = ChromeService(executable_path=ChromeDriverManager().install()) # Automatically downloads the correct version of ChromeDriver for the version of Chrome installed on your system.
