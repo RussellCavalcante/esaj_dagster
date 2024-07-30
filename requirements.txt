@@ -66,7 +66,6 @@ pandas==1.5.3
 pandera==0.18.0
 parse==1.20.0
 parso==0.8.3
-pendulum==2.1.2
 pexpect==4.9.0
 Pint==0.20.1
 Pint-Pandas==0.4
@@ -119,7 +118,6 @@ typeguard==4.1.5
 typing-inspect==0.9.0
 typing_extensions==4.9.0
 tzdata==2023.4
-universal-pathlib==0.1.4
 urllib3==1.26.18
 urllib3-secure-extra==0.1.0
 uvicorn==0.29.0
